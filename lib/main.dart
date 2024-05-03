@@ -223,6 +223,7 @@ class _TicTacToeBoardState extends State<TicTacToeBoard> {
     return 0;
   }
 
+  // this function to reset game
   void resetGame() {
     setState(() {
       board = List.filled(9, '');
